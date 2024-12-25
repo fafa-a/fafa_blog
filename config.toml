@@ -4,8 +4,9 @@ description = "Mon blog personnel"
 default_language = "fr"
 author = "fafa"
 theme = "kita"
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
 
-# Taxonomies
 [[taxonomies]]
 name = "categories"
 feed = true
@@ -16,9 +17,27 @@ name = "tags"
 feed = true
 paginate_by = 5
 
+generate_robots_txt = true
+
+[extra]
+mermaid = true
+comment = false
+
 [extra.profile]
 name = "fafa"
 bio = "Développeur fullstack (plus front par le travail), je code une app mobile avec les frameworks Tauri/Leptos, pour sports de combat. Le but principal de ce blog est de partager mon apprentissage de Rust et son écosystème. Je partagerai aussi quelques notes prises lors de mes journées de travail. Par la création de ce blog, j'espère m'engager à commencer et surtout finir ce projet car des side projects, on en a plein mais pas un seul de fini... 🦀 🥊 💻"
+
+[[extra.profile.social]]
+name = "github"
+url = "https://github.com/fafa-a"
+
+[[extra.profile.social]]
+name = "twitter"
+url = "https://x.com/FabienPuech"
+
+[[extra.profile.social]]
+name = "rss"
+url = "$BASE_URL/rss.xml"
 
 [[extra.menu]]
 name = "Rust"
@@ -29,6 +48,10 @@ name = "Dev"
 url = "$BASE_URL/dev"
 
 [[extra.menu]]
+name = "Projects"
+url = "$BASE_URL/projects"
+
+[[extra.menu]]
 name = "Tags"
 url = "$BASE_URL/tags"
 
@@ -36,6 +59,21 @@ url = "$BASE_URL/tags"
 name = "About"
 url = "$BASE_URL/about"
 
+[extra.style]
+# The custom background color.
+# bg_color = ""
+
+# The custom background color in dark mode.
+# bg_dark_color = ""
+
+# Enable header blur.
+# header_blur = true
+
+# The custom header color, only available when `header_blur` is false.
+# header_color = ""
+
+# The custom header color in dark mode, only available when `header_blur` is false.
+# header_dark_color = ""
 
 [extra.footer]
 since = 2024

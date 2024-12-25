@@ -1,0 +1,28 @@
+[[project]]
+name = "Anoukis"
+desc = "A minimalist monochrome theme for Neovim with subtle touches of very light purple. "
+tags = ["neovim", "theme", "lua"]
+links = [{ name = "github", url = "https://github.com/fafa-a/anoukis" }]
+
+[[project]]
+name = "mini-geojson"
+desc = "Rust-based GeoJSON minifier: truncate decimals, select/drop properties, remove empty ones. "
+tags = ["rust", "geojson", "minifier"]
+links = [{ name = "github", url = "https://github.com/fafa-a/mini-geojson" }]
+
+[[project]]
+name = "social-network-animation"
+desc = "Animated social links for streamers"
+tags = ["overlay", "animation", "streamer"]
+links = [
+  { name = "github", url = "https://github.com/fafa-a/social-network-animation" },
+]
+
+[[project]]
+name = "Apod"
+desc = "Site based on nasa api, display the Astronomy Picture of the Day"
+tags = ["astronomy", "nasa", "api"]
+links = [
+  { name = "website", url = "https://apod.pages.dev/" },
+  { name = "github", url = "https://github.com/fafa-a/apod" },
+]
