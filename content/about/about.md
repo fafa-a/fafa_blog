@@ -17,5 +17,5 @@ Mon travail actuel est principalement axé sur le frontend avec React et TypeScr
 
 ## Pourquoi le blog?
 
-Le but de ce blog est de partager ce que j'apprends et ce que je fais, et de l'utiliser comme d'un mémo. Surtout m'engager à finir le projet du countdown/timer/hit. Peut-etre que le fait de raconter cette période m'aidera, car on commençe beaucoup de projet mais trop peu arrive à terme.
+Le but de ce blog est de partager ce que j'apprends et ce que je fais, et de l'utiliser comme d'un mémo. Surtout m'engager à finir le projet du countdown/timer/hit. Peut-etre que le fait de raconter cette période m'aidera, car on commençe beaucoup de projet mais trop peu arrive à terme.  
 Le blog m'aidera également à améliorer mon français, j'ai des soucis de syntaxe et de grammaire. Je ferai aussi une traduction en anglais car j'ai un faible niveau, et le fait de traduire ce que je viens d'ecrire m'aidera.
