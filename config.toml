@@ -5,7 +5,7 @@ default_language = "fr"
 author = "fafa"
 theme = "kita"
 generate_feeds = true
-feed_filenames = ["atom.xml", "rss.xml"]
+feed_filenames = ["atom.xml"]
 
 [[taxonomies]]
 name = "categories"
@@ -17,6 +17,17 @@ name = "tags"
 feed = true
 paginate_by = 5
 
+[[languages.en.taxonomies]]
+name = "categories"
+feed = true
+paginate_by = 5
+
+[[languages.en.taxonomies]]
+name = "tags"
+feed = true
+paginate_by = 5
+
+generate_sitemap = true
 generate_robots_txt = true
 
 [extra]
@@ -25,7 +36,8 @@ comment = false
 
 [extra.profile]
 name = "fafa"
-bio = "Développeur fullstack (plus front par le travail), je code une app mobile avec les frameworks Tauri/Leptos, pour sports de combat. Le but principal de ce blog est de partager mon apprentissage de Rust et son écosystème. Je partagerai aussi quelques notes prises lors de mes journées de travail. Par la création de ce blog, j'espère m'engager à commencer et surtout finir ce projet car des side projects, on en a plein mais pas un seul de fini... 🦀 🥊 💻"
+bio = "Fullstack developer (more focused on frontend through work), I'm building a mobile app with Tauri/Leptos frameworks for combat sports. The main purpose of this blog is to share my learning journey with Rust and its ecosystem. I'll also share some notes taken during my workdays. By creating this blog, I hope to commit myself to starting, and especially finishing this project because we all have plenty of side projects but none of them finished... 🦀 🥊 💻"
+
 
 [[extra.profile.social]]
 name = "github"
@@ -36,28 +48,47 @@ name = "twitter"
 url = "https://x.com/FabienPuech"
 
 [[extra.profile.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/fabien-puech/"
+
+
+[[extra.profile.social]]
 name = "rss"
-url = "$BASE_URL/rss.xml"
+url = "/atom.xml"
 
 [[extra.menu]]
-name = "Rust"
-url = "$BASE_URL/rust"
+id = "rust"
+url = "/rust"
 
 [[extra.menu]]
-name = "Dev"
-url = "$BASE_URL/dev"
+id = "dev"
+url = "/dev"
 
 [[extra.menu]]
-name = "Projects"
-url = "$BASE_URL/projects"
+id = "tags"
+url = "/tags"
 
 [[extra.menu]]
-name = "Tags"
-url = "$BASE_URL/tags"
+id = "about"
+url = "/about"
 
-[[extra.menu]]
-name = "About"
-url = "$BASE_URL/about"
+# Configuration anglaise
+[languages.en]
+title = "fafa_blog"
+description = "My personal blog"
+
+[languages.en.translations]
+about = "About"
+rust = "Rust"
+dev = "Dev"
+tags = "Tags"
+
+# Traductions françaises (langue par défaut)
+[translations]
+about = "About"
+rust = "Rust"
+dev = "Dev"
+tags = "Tags"
 
 [extra.style]
 # The custom background color.
@@ -75,5 +106,6 @@ url = "$BASE_URL/about"
 # The custom header color in dark mode, only available when `header_blur` is false.
 # header_dark_color = ""
 
+name = "fafa"
 [extra.footer]
 since = 2024
