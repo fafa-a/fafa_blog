@@ -1,6 +1,6 @@
 +++
 title = "fight-timer"
 sort_by = "date"
-transparent = true
+transparent = false
 template = "section.html"
 +++
