@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "About me"
-date = 2024-01-17
+date = 2024-12-26
 [taxonomies]
 categories = ["about"]
 tags = ["about"]
