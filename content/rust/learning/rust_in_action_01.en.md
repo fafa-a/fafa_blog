@@ -7,4 +7,4 @@ categories = ["learning","rust"]
 tags = ["rust-in-action","basics","notes"]
 +++
 
-## Rust en Action - 01 FR
+## Rust in Action - 01 ENG
