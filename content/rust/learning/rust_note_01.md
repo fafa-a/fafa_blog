@@ -1,6 +1,6 @@
 +++
-title = "Rust in Action - 01"
-description = "Notes sur le premier chapitre du livre"
+title = "Rust note - 01"
+description = "Introduction et concepts clés"
 date = 2024-12-26
 [taxonomies]
 categories = ["learning","rust"]
@@ -11,7 +11,9 @@ tags = ["rust-in-action","key-concepts","notes"]
 
 Afin d'apprendre Rust, j'ai décidé de le lire le livre [The Rust Programming Language](https://www.amazon.com/Rust-Programming-Language-2nd/dp/1718503105) de Steve Klabnik. À ce jour (2024-12-26), je ne me souviens pas pourquoi je n'ai pas fini sa lecture. J'ai acheté plus tard le livre [rust in action](https://www.amazon.com/Rust-Action-TS-McNamara/dp/1617294551) de Tim McNamara, car dans un article listant des livres pour apprendre `Rust`, il était bien classé et sa description m'a plu.
 
-Au moment où je commence le blog, j'ai déjà quelques notes sur le livre, j'en suis à la page 42/456 😅. Les notes que je prends sont plus des mémos que des notes de cours. Pour le blog il se peut que je me motive et fasse des phrases. Les notes ne seront pas que sur le langage Rust mais peut-être aussi sur des interrogations lors de la lecture.
+Au moment où je commence le blog, j'ai déjà quelques notes sur le livre, j'en suis à la page 42/456 😅. Les notes que je prends sont plus des mémos que des notes de cours. Pour le blog il se peut que je me motive et fasse des phrases. Les notes ne seront pas que sur le langage Rust mais peut-être aussi sur des interrogations lors de la lecture des livres ou de la realisation de projets.  
+
+La premiere note est juste des questions que j'ai posées a une IA sur des concepts clés.
 
 ## **Concepts Clés :**
 
@@ -32,14 +34,14 @@ Au moment où je commence le blog, j'ai déjà quelques notes sur le livre, j'en
 - **Consommation de Ressources** : Nécessite plus de ressources que la gestion des threads.
 - **Géré par le Système d'Exploitation** : Géré par le système d'exploitation pour la création, la planification et la terminaison.
 
-### **Type Unit**
+### **Unit type**
 
 - **Description** : Le type unit en Rust, noté **`()`**, est un type de taille zéro qui signifie 'pas de valeur'.
 - **Utilisation** : Couramment utilisé comme type de retour pour les fonctions qui ne retournent pas de valeur significative.
 - **Comparaison** : Semblable à **`void`** en C/C++, mais en Rust, **`()`** est un type réel et peut être utilisé là où des types sont requis.
 - **Fonctionnalité** : Dans les fonctions, **`return;`** ou l'absence de déclaration de retour renvoie implicitement **`()`**.
 
-### **Comptage de Références**
+### **Reference counting**
 
 - **Technique de Gestion de Mémoire** : Gère la durée de vie des objets à travers des comptes de références.
 - **Suivi du Compte de Références** : Compte le nombre de références à un objet.
@@ -49,7 +51,7 @@ Au moment où je commence le blog, j'ai déjà quelques notes sur le livre, j'en
 - **Incrémentation/Décrémentation des Comptes** : Le compte de références augmente avec de nouvelles références et diminue lorsque des références sont supprimées.
 - **Assistance à la Collecte des Déchets** : Simplifie les processus de collecte des déchets dans certains langages de programmation.
 
-### **Pointeurs Intelligents**
+### **Smart pointers**
 
 - **Gestion Automatique de la Mémoire** : Gère l'allocation et la désallocation de la mémoire.
 - **Contrôle des Ressources** : Gère la durée de vie des objets, prévenant les fuites de mémoire.

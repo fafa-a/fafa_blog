@@ -1,6 +1,6 @@
 +++
-title = "Rust in Action - 01"
-description = "Notes from the first chapter of the book"
+title = "Rust note - 01"
+description = "Introduction and key concepts"
 date = 2024-01-26
 [taxonomies]
 categories = ["learning","rust"]
@@ -10,7 +10,9 @@ tags = ["rust-in-action","key-concepts","notes"]
 
 In order to learn Rust, I decided to read the book [The Rust Programming Language](https://www.amazon.com/Rust-Programming-Language-2nd/dp/1718503105) by Steve Klabnik. To this day (2024-12-26), I don't remember why I didn't finish reading it. I later bought the book [rust in action](https://www.amazon.com/Rust-Action-TS-McNamara/dp/1617294551) by Tim McNamara, because in an article listing books to learn `Rust`, it was well ranked and its description appealed to me.
 
-As I start the blog, I already have some notes on the book, I'm on page 42/456 😅. The notes I'm taking are more memos than course notes. For the blog I may motivate myself and make sentences. The notes won't just be about the Rust language, but maybe also about questions while reading.
+As I start the blog, I already have some notes on the book, I'm on page 42/456 😅. The notes I'm taking are more memos than course notes. For the blog I may motivate myself and make sentences. The notes won't just be about the Rust language, but perhaps also about questions asked when reading the books or working on projects.  
+
+The first note is just some questions I asked an AI about key concepts.
 
 ## **Key Concepts:**
 
