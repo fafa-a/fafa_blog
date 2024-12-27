@@ -4,7 +4,7 @@ description = "Introduction et concepts clés"
 date = 2024-12-26
 [taxonomies]
 categories = ["learning","rust"]
-tags = ["rust-in-action","key-concepts","notes"]
+tags = ["key-concepts","notes","threads","process","unit-type","reference-counting","smart-pointers"]
 +++
 
 ## Introduction
